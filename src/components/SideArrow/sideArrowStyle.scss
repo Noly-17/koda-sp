@@ -1,0 +1,39 @@
+.side-arrow {
+  background-color: black;
+  opacity: 0.1;
+  position: fixed;
+  right: 0;
+  top: 44%;
+  height: 120px;
+  width: 30px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .arrow img {
+    width: 50px;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    width: 70px;
+    opacity: 1;
+  }
+}
+
+// .side-arrow {
+//     background-color: white;
+//     position: fixed;
+//     right: 0;
+//     top: 44%;
+//     height: 120px;
+//     border-top-left-radius: 55px;
+//     border-bottom-left-radius: 55px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     cursor: pointer;
+//   }
