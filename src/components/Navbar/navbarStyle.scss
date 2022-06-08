@@ -1,6 +1,7 @@
 $primaryC: white;
-$thirdC: rgb(218, 165, 32);
 $secondC: black;
+$thirdC: #619ce1;
+$fourthC: transparent;
 
 nav {
   position: fixed;
@@ -37,7 +38,7 @@ nav {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: $secondC;
+  background-color: transparent;
 
   &:hover span:nth-child(2) {
     transform: translateX(10px);

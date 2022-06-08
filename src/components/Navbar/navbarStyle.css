@@ -42,13 +42,13 @@ nav {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: black;
+  background-color: transparent;
 }
 
 .hamburger:hover span:nth-child(2) {
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
-  background-color: goldenrod;
+  background-color: #619ce1;
 }
 
 .hamburger span {

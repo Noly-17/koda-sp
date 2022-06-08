@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  gap: 60px;
+  max-width: 1020px;
+}
+
+.left {
+  font-size: 1.2rem;
+}
+
+.right {
+  font-size: 3.2rem;
+}
