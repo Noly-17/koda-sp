@@ -1,9 +1,11 @@
 import React from "react";
 import SideArrow from "../../components/SideArrow";
+import Navbar from "../../components/Navbar";
 import "./homeStyle.scss";
 const Home = () => {
   return (
     <>
+      <Navbar />
       <div className="home">
         <div>
           <h1>

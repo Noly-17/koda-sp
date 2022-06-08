@@ -1,24 +1,53 @@
+.about-wrapper {
+  height: 100vh;
+  margin-bottom: 200px;
+}
+
 .about {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  margin: 100px 0px 100px 0px;
 }
 
-.about div {
+.f-continer {
+  max-width: 1080px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: auto;
   gap: 60px;
-  max-width: 1020px;
 }
 
 .left {
   font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 .right {
   font-size: 3.2rem;
+}
+
+@media (max-width: 828px) {
+  .about {
+    margin: 50px 0px 50px 0px;
+  }
+
+  .f-continer {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .left {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .right {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+  }
 }

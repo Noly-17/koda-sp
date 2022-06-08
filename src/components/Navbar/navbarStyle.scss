@@ -38,7 +38,7 @@ nav {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: transparent;
+  background-color: $fourthC;
 
   &:hover span:nth-child(2) {
     transform: translateX(10px);
